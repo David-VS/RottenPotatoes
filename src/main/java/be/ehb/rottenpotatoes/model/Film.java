@@ -52,6 +52,6 @@ public class Film {
 
     @Override
     public String toString() {
-        return this.name+", "+this.year+"\n";
+        return "\n"+this.name+", "+this.year+"\n" + "reviews: "+ this.reviewSet;
     }
 }
